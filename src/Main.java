@@ -9,14 +9,22 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(add(1,2));
-        System.out.println(add(1,2,3,4));
-        System.out.println(morningGreeting("Avril"));
-        System.out.println(afternoonGreeting("Avril Lim"));
-        System.out.println(triple("hello"));
-        System.out.println(half(3));
-        System.out.println(roundPositiveValueToNearestInteger(6.76));
-        System.out.println(roundNegativeValueToNearestInteger(-5.24));
+        int addTwo = add(1,2);
+        System.out.println(addTwo);
+        int addFour = add(1,2,3,4);
+        System.out.println(addFour);
+        String greetMeMorning = morningGreeting("Avril");
+        System.out.println(greetMeMorning);
+        String greetMeAfternoon = afternoonGreeting("Avril Lim");
+        System.out.println(greetMeAfternoon);
+        String helloThrice = triple("hello");
+        System.out.println(helloThrice);
+        double halveThree = half(3);
+        System.out.println(halveThree);
+        int roundPos = roundPositiveValueToNearestInteger(6.76);
+        System.out.println(roundPos);
+        int roundNeg = roundNegativeValueToNearestInteger(-5.24);
+        System.out.println(roundNeg);
     }
 
     // 1. add
